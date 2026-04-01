@@ -1,0 +1,13 @@
+# ======================
+# VARIAVEIS script
+# ======================
+
+LIBRARY= 'promof0005'
+TABLE_NAME='$pddele'
+TABLE_NAME1='$PDDDES'
+UID='SACOJR01'
+PWD='SACOJR01'
+STATION='W9015DTI40'
+SYSTEM='10.2.28.54'
+FILE_PATH=${FILE_CSV}
+DRIVER="{iSeries Access ODBC Driver}"
