@@ -1,20 +1,19 @@
-2026-04-01 09:46:15,250 [INFO] === INÍCIO DA EXECUÇÃO ===
-2026-04-01 09:46:34,372 [INFO] === INÍCIO DA EXECUÇÃO ===
-2026-04-01 09:47:19,169 [INFO] === INÍCIO DA EXECUÇÃO ===
-2026-04-01 09:53:39,672 [INFO] === INÍCIO DA EXECUÇÃO ===
-2026-04-01 09:54:29,248 [INFO] === INÍCIO DA EXECUÇÃO ===
-2026-04-01 09:55:58,617 [INFO] === INÍCIO DA EXECUÇÃO ===
-2026-04-01 09:56:01,426 [ERROR] [ERRO] Erro Crítico no Main: name 'library' is not defined
-Traceback (most recent call last):
-  File "C:\python\IntegracaoPhyton_AS400\CreateAPIPackage\get_main.py", line 34, in main
-    run_qry()
-  File "C:\python\IntegracaoPhyton_AS400\CreateAPIPackage\run_query.py", line 18, in run_qry
-    if not check_table_exists(cursor, library, table):
-NameError: name 'library' is not defined
-2026-04-01 09:58:12,392 [INFO] === INÍCIO DA EXECUÇÃO ===
-2026-04-01 09:58:12,977 [INFO] Iniciando extração de dados do IBM i...
-2026-04-01 09:58:13,366 [INFO] Data de referência DB: 20260401
-2026-04-01 09:58:14,435 [INFO] [OK] Query concluída. 155 registos encontrados em 1.07s
-2026-04-01 11:23:01,591 [INFO] === INÍCIO DA EXECUÇÃO ===
-2026-04-01 11:23:02,133 [INFO] Iniciando extração de dados do IBM i...
-2026-04-01 11:23:02,470 [INFO] Data de referência DB: 20260401
+2026-04-01 17:32:54,861 - INFO - --- NOVA SESSÃO: GB5425 ---
+2026-04-01 17:32:54,866 - INFO - Iniciando processo para: GB5425
+2026-04-01 17:32:54,869 - INFO - Carregando ambiente: .env.keve...
+2026-04-01 17:32:54,873 - INFO - OK: Variáveis de ambiente carregadas.
+2026-04-01 17:32:54,874 - INFO - Conectando ao DB e buscando metadados para GB5425DS...
+2026-04-01 17:32:55,402 - INFO - OK: 43 campos encontrados na base de dados.
+2026-04-01 17:32:55,405 - INFO - Processando tipos de dados (D$DELE)...
+2026-04-01 17:32:55,408 - INFO -    -> Campos Simples: 25
+2026-04-01 17:32:55,412 - INFO -    -> Campos Array: 18
+2026-04-01 17:32:55,416 - INFO - Diretório de saída: C:\python\IntegracaoPhyton_AS400\CreateAPIPackage\generated_java\GB5425
+2026-04-01 17:32:55,420 - INFO - Gerando código fonte Java...
+2026-04-01 17:32:55,423 - INFO -    [CRIADO]: GB5425Request.java
+2026-04-01 17:32:55,425 - INFO -    [CRIADO]: GB5425Response.java
+2026-04-01 17:32:55,428 - INFO -    [CRIADO]: GB5425Handler.java
+2026-04-01 17:32:55,442 - INFO - 
+✅ SUCESSO TOTAL!
+2026-04-01 17:32:55,444 - INFO - Ambiente utilizado: .env.keve
+2026-04-01 17:32:55,536 - INFO - --- FIM DA SESSÃO ---
+

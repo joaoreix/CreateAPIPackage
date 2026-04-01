@@ -2,16 +2,17 @@ import os
 import pyodbc
 from dotenv import load_dotenv
 
-load_dotenv()
-
+def load_environment(env_path):
+    """Carrega um ficheiro .env específico e limpa o cache anterior"""
+    load_dotenv(env_path, override=True)
 
 def get_db_connection():
+    # Agora os valores virão do .env que foi carregado por último
     conn_str = (
         f"DRIVER={os.getenv('DRIVER')};"
         f"SYSTEM={os.getenv('SYSTEM')};"
         f"UID={os.getenv('UID')};"
         f"PWD={os.getenv('PWD')};"
-        f"Library={os.getenv('LIBRARY')};"
     )
     return pyodbc.connect(conn_str)
 
